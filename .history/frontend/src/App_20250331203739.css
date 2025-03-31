@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.App-header {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.navbar {
+  background-color: #e0e0e0; /* light gray */
+  color: black;
+  padding: 20px 30px; /* increased padding for more height */
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px; /* explicitly define height */
+}
+
+.navbar button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-user {
+  font-weight: bold;
+}
+
+.input-group {
+  margin: 20px auto;
+  max-width: 500px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+
+.upload-button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.totals {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.result-section,
+.history-card {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: left;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.filters {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.filters select {
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}

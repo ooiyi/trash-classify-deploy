@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.welcome-screen {
+  padding-top: 100px;
+}
+
+.welcome-screen input {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.start-button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.navbar {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px 40px;
+  margin: 0;
+  margin-bottom: 100px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-user {
+  font-weight: bold;
+}
+
+.navbar-center-title {
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar-links {
+  display: flex;
+  gap: 12px;
+}
+
+.navbar-links button {
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  background-color: white;
+  color: #1e1e1e;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-links button:hover {
+  background-color: #ddd;
+}
+
+.input-group {
+  margin: 20px auto;
+  max-width: 500px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.dropzone {
+  border: 2px dashed #aaa;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.upload-button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.totals {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.result-section,
+.history-card {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: left;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.filters {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.filters select {
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+}

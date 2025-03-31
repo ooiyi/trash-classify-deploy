@@ -1,0 +1,203 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.App-header {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.welcome-screen {
+  padding-top: 100px;
+}
+
+.welcome-screen input {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.start-button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-user {
+  font-weight: bold;
+}
+
+.input-group {
+  margin: 20px auto;
+  max-width: 500px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.dropzone {
+  border: 2px dashed #aaa;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.upload-button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.totals {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.result-section,
+.history-card {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: left;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.filters {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.filters select {
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Make navbar sticky and full-width */
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  color: white;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Logo styling */
+.logo {
+  height: 40px;
+}
+
+/* Hamburger menu styling */
+.nav__hamburger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.nav__hamburger__line {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+}
+
+/* Dropdown menu */
+.navbar--items {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  flex-direction: column;
+  padding: 10px;
+  min-width: 150px;
+}
+
+.navbar--items.active {
+  display: flex;
+}
+
+/* Remove bullet points from list */
+.navbar--items ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar--items li {
+  margin: 0;
+}
+
+/* Button inside dropdown */
+.navbar--content {
+  background: none;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+}
+
+.navbar--content:hover {
+  background-color: #f0f0f0;
+}
