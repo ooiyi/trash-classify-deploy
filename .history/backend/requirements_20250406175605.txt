@@ -1,0 +1,5 @@
+Flask
+flask-cors
+ultralytics
+torch
+opencv-python
