@@ -48,7 +48,7 @@ const App = () => {
     try {
       // https://trash-classify.onrender.com/predict
       // http://127.0.0.1:5000/predict
-      const response = await axios.post("https://trash-classify.onrender.com/predict", formData, {
+      const response = await axios.post("http://127.0.0.1:5000/predict", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
 
