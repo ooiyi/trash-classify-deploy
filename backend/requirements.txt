@@ -1,6 +1,6 @@
-Flask
+flask
 flask-cors
 gunicorn
 ultralytics
 torch
-opencv-python
+opencv-python-headless
