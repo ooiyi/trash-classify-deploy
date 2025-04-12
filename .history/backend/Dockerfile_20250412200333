@@ -1,0 +1,19 @@
+FROM python:3.10-slim
+
+# Set working directory
+WORKDIR /app
+
+# Install OpenCV dependency
+RUN apt-get update && apt-get install -y libgl1-mesa-glx
+
+# Copy dependencies
+COPY requirements.txt .
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy source code
+COPY . .
+
+# Run using Gunicorn on port 8080 (required by Cloud Run)
+CMD ["gunicorn", "app:app", "--bind", "0.0.0.0:8080", "--workers=1", "--timeout=120"]
